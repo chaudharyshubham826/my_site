@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    text-align: center;    /* this aligns the text in the body to center*/
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    
+                   /*width of the box*/
+    margin: 3.125rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;      /* this is dynamic size, while if size in pixels then it's not dynamic */
+}                           /* 1em = 16px = 100% , em is also dynamic*/
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p{
+    padding: 20px 0;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-color: #f4eeff;
+    border-width: 7px;
+    width: 4%;
+}
+.top-para {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+
+
+.middle-container{
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 75px;
+}
+
+.profile{
+    padding: 50px 0;
+}
+
+.skills{
+    padding-top: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    /* position: relative;
+    left: 25%;
+    right: 25%; */
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+
+
+.bottom-container{
+    background-color: #51dacf;
+    padding: 50px 0 0 0;
+    
+}
+
+.middle-photo {
+    width: 12%;
+}
+
+
+.comp-png {
+    width: 20%;;
+    float: left;
+    margin-right: 30px;
+}
+
+.piano-png {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.footer-link{
+    color: #11999E;
+    padding: 0 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.all-rights-reserved{
+    margin: 0;
+    color: #EAF6F6;
+    padding: 50px 0;
+    font-size: small;
+}
+
+.contact-me{
+    padding-top: 50px;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px;
+    box-shadow: 1px 1px 20px 0px #11999E;
+    -webkit-box-shadow: 1px 1px 20px 0px #11999E;
+    -moz-box-shadow: 1px 1px 20px 0px #11999E;
+    border: solid #11999E 0px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.btn:hover {
+    border: solid #11999E 0px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+.mc-h2{
+    padding: 20px 0;
+    margin: 0;
+    font-size: 35px;
+}
+
+.mc-h3{
+    padding: 20px 0;
+    margin: 0;
+}
+
+.mc-p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+
+/* position property
+1. static - default one, as the browser suggests(locked)
+2. relative - relative to the position it would have been when relative(free to move)
+3. absolute - relative to the parent, but parent should have a realative position(most free, can go anywhere)
+4. fixed - fixed position, even if page is scrolled */
+
+
+/* display property(remember by box)
+1. block - box covers the whole width but the width can be changed
+2. inline - box covers the width it needs, can't change the width, another inline element can come next to it
+3. inline-block -  can change the width and another inline element can come next to it*/
